@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scratch Page</title>
+    <link rel="stylesheet" href="css/myStyles.css">
+</head>
+<body>
+    <!-- link to bootstrap -->
+    <a href="index.html" id="top">Bootstrap Website</a>
+
+    <div class="header">About Me</div>
+
+    <div class="nav">
+        <a href="#place">Places I've Lived</a> <br>
+        <a href="#int">My Interests</a> <br>
+        <a href="#fam">My Family</a> <br>
+    </div>
+    
+
+    <div id="place" class="subhead">Places I've Lived</div>
+    <p class="states">Iowa</p>
+    <p>1998-2016</p>
+    <p>I was born and raised in Iowa City, IA. My dad is a professor at the University of Iowa so I lived there as I was growing up. My family did move once while I was living there, but it was just a few houses down the road. I really liked growing up in Iowa</p>
+    <p class="states">Sweden</p>
+    <p>2016-2018</p>
+    <p>I lived in Sweden for two years as a missionary for my church. I moved a bit while I was there. In total I lived in 5 different cities over the two years. It was a really fun time as I got to meet a lot of new people and learn the language and culture. </p>
+    <!-- Image -->
+    <img src="assets/img/sweden.jpg" height="300px" alt="Wedding Photo"><br>
+    <p class="states">Utah</p>
+    <p>2019-Present</p>
+    <p>After living in Sweden for two years I moved to Utah for school. I am currently attending BYU and studying finance. I love living in Utah since it has a lot of outdoor things to do.</p>
+
+    <div id="int" class="subhead">My Interests</div>
+    <!-- Unordered list embeded in ordered list -->
+    <ol>
+        <li>My Favorate Sports To Play</li>
+            <ul>
+                <li>Tennis</li>
+                <li>Pickleball (video below)</li>
+                <li>Ultimate Frisbee</li>
+                <li>Rec League Softball</li>
+            </ul>
+        <li>My Favorite Hobbies</li>
+            <ul>
+                <li>Hiking</li>
+                <li>Going to the Gym</li>
+                <li>Reading</li>
+            </ul>
+        <li>My Favorite Things To Learn About (Outside Of School)</li>
+            <ul>
+                <li>Technology</li>
+                <li>Psycology</li>
+                <li>Business</li>
+            </ul>
+    </ol>
+    <p>I love playing Pickleball and know a lot of people have played. However, I don't think too many people have seen professionals play. Here's a clip of two of the top players playing a match.</p>
+    <!-- Video -->
+    <iframe src="https://www.youtube.com/embed/fJJxoKbU4ic" width="800px" height="450px" class="video"></iframe>
+
+
+    <div id="fam" class="subhead">My Family</div>
+    <p>
+        I'm lucky to have grown up in a very loving home. My parents were and are great rolemodels for me.
+        My three older siblings were also great examples to me and have inspired me a lot. My oldest sister
+        is currently getting her PhD from the University of Utah in Biology. My brother is working for Google
+        in Seattle and my other sister is working at Arizona State University. I recently got married at the
+        beginning of November 2022. I love being married and can't wait to see where life takes us. My wife
+        recently showed me an infographic about who we spend our time with as we age. I was able to find a 
+        tableau graphic and include it below.
+    </p>
+
+
+    <!-- Tableau -->
+    <div class='tableauPlaceholder' id='viz1670537833237' style='position: relative'>
+        <noscript>
+            <a href='#'>
+                <img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wh&#47;WhoAmericansspendtheirtimewithbyage&#47;Dashboard1&#47;1_rss.png' style='border: none' />
+            </a>
+        </noscript>
+        <object class='tableauViz'  style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+            <param name='embed_code_version' value='3' /> <param name='site_root' value='' />
+            <param name='name' value='WhoAmericansspendtheirtimewithbyage&#47;Dashboard1' />
+            <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+            <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wh&#47;WhoAmericansspendtheirtimewithbyage&#47;Dashboard1&#47;1.png' /> 
+            <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' /><param name='language' value='en-US' />
+        </object>
+    </div>                
+    <script type='text/javascript'>                    
+        var divElement = document.getElementById('viz1670537833237');                    
+        var vizElement = divElement.getElementsByTagName('object')[0];                    
+        vizElement.style.width='1100px';vizElement.style.height='927px';                    
+        var scriptElement = document.createElement('script');                    
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+    </script>
+    <a href="#top">Back To Top</a>
+    <div class="footer">&copy 2022</div>
+</body>
+</html>
