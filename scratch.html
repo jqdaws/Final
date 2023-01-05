@@ -5,13 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scratch Page</title>
-    <link rel="stylesheet" href="css/myStyles.css">
+    <link rel="stylesheet" href="css/myStyles.css"  >
 </head>
 <body>
     <!-- link to bootstrap -->
     <a href="index.html" id="top">Bootstrap Website</a>
 
     <div class="header">About Me</div>
+
+    <h1>Hello. What is your name?</h1>
+    <input id="userInput"> <br> <br>
+    <button onclick="myFunction()"> Submit</button>
+    <h1 id="message"></h1>
+
+    <script>
+        function myFunction() {
+            let userInput = document.querySelector("#userInput");
+            let message = document.querySelector("#message");
+            
+            message.innerHTML = "Welcome to my website, " + userInput.value;
+        }
+
+    </script>
+    
 
     <div class="nav">
         <a href="#place">Places I've Lived</a> <br>
@@ -28,7 +44,7 @@
     <p>2016-2018</p>
     <p>I lived in Sweden for two years as a missionary for my church. I moved a bit while I was there. In total I lived in 5 different cities over the two years. It was a really fun time as I got to meet a lot of new people and learn the language and culture. </p>
     <!-- Image -->
-    <img src="assets/img/sweden.jpg" height="300px" alt="Wedding Photo"><br>
+    <img src="assets/img/sweden.jpg" height="300px" alt="sweden"><br>
     <p class="states">Utah</p>
     <p>2019-Present</p>
     <p>After living in Sweden for two years I moved to Utah for school. I am currently attending BYU and studying finance. I love living in Utah since it has a lot of outdoor things to do.</p>
